@@ -1,0 +1,328 @@
+.container{
+    background-color:rgb(255, 255, 255);
+     height: 600px;
+     display: flex;
+ }
+ .design{
+    background-image: linear-gradient(rgba(206,65,255,255) , rgba(145,59,254,255));
+    height: 600px;
+    width: 300px;
+    border-radius: 0px 0px 250px 0px;
+ }
+ .item{
+    display: flex;
+    background-color:white;  
+    height: 480px;
+    width: 230px;
+    border-radius: 25px;
+ position: absolute;
+ top: 70px;
+ left: 260px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+ }
+ .phone{   
+    background-color: rgba(240,238,243,255);  
+    height: 465px;
+    width: 216px;
+    border-radius: 15px;
+    position: absolute;
+    top: 77px;
+    left: 267px;
+}
+.phone-top{
+    display: flex;
+    background-image: linear-gradient( to left , rgba(206,65,255,255) , rgba(145,59,254,255) ); 
+    height: 70px;
+    width: 216px;
+    border-radius: 15px;
+    position: absolute;
+    top: 77px;
+    left: 267px;
+  
+}
+.notch{
+    display: flex;
+    background-color: white;  
+    height: 20px;
+    width: 110px;
+    border-radius:  0px 0px 16px 16px;
+    position: absolute;
+    top: 77px;
+    left: 318px;
+}
+i{
+    margin-top: 35px;
+    margin-left: 10px;
+   /* position: absolute;
+    top:110px;
+    left: 275px; */
+}
+.avatar{
+    margin-top: 32px; 
+   margin-left: 4px;
+   height: 20px;
+   width: 20px;
+   border: 1px solid white;
+   border-radius: 250px;   
+}
+h1{
+    color: white;
+   font-size: 12px;
+   margin-top: 30px;
+   margin-left: 10px;
+   font-family: "rubik";
+
+}
+p{
+    color: rgba(177,145,188,255);
+   font-size: 8px;
+   margin-top: 47px;
+   margin-left: -73px;
+   font-family: "rubik"
+}
+.logo-2{
+    margin-top: ;
+    margin-left: 76px;
+    color: white;
+}
+.msg-1{
+    
+    height: 35px;
+    width: 130px;
+    background-color: rgba(234,227,241,255);
+    position: absolute;
+    top: 157px;
+    left: 275px;
+    border-radius: 10px 10px 10px 3px;
+}
+.para-1{
+font-size: 8px;
+color  :rgba(174,142,185,255) ;
+position: absolute;
+top:-40px;
+left: 80px;
+font-weight: bold;
+font-family: "rubik";
+}
+.msg-2{
+    
+    height: 35px;
+    width: 130px;
+    background-color: rgba(235,227,242,255);
+    position: absolute;
+    top: 200px;
+    left: 275px;
+    border-radius: 10px 10px 10px 3px;
+}
+.para-2{
+font-size: 8px;
+color:rgba(174,142,185,255) ;
+position: absolute;
+top:-40px;
+left: 80px;
+font-weight: bold;
+font-family: "rubik";
+}
+.img-1{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+top: 45px;
+left: 68px;
+border-radius: 10px;
+}
+.img-2{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+top:45px;
+left: 114px;
+border-radius: 10px;
+}
+.img-3{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+top:45px;
+left: 160px;
+border-radius: 10px;
+}
+
+.msg-3{
+    
+    height: 35px;
+    width: 130px;
+    background-color: rgba(235,227,242,255);
+    position: absolute;
+    top: 292px;
+    left: 345px;
+    border-radius: 10px 10px 3px 10px;
+}
+
+.para-3{
+font-size: 8px;
+color: black ;
+position: absolute;
+top: 253px;
+left: 425px;
+font-family: "rubik";
+}
+.msg-4{
+    
+    height: 25px;
+    width: 85px;
+    background-color: rgba(235,227,242,255);
+    position: absolute;
+    top: 335px;
+    left: 390px;
+    border-radius: 10px 10px 3px 10px;
+}
+
+.para-4{
+font-size: 8px;
+color: black ;
+position: absolute;
+top: 296px;
+left: 472px;
+font-family: "rubik";
+
+}
+.msg-5{
+    
+    height: 45px;
+    width: 135px;
+    background-color: rgba(235,227,242,255);
+    position: absolute;
+    top: 372px;
+    left: 275px;
+    border-radius: 10px 10px 10px 3px;
+}
+.para-5{
+    color: rgba(174,142,185,255)  ;
+    font-size: 8px;
+     position: absolute;
+    top: 333px;
+    left: 355px;
+    font-weight: bold;
+    font-family: "rubik";
+    }
+    .msg-6{
+        height: 30px;
+        width: 135px;
+        background-image: linear-gradient( to right , rgba(206,65,255,255) , rgba(145,59,254,255) ); 
+        position: absolute;
+        top: 425px;
+        left: 275px;
+        border-radius: 10px 10px 10px 3px;
+    }
+    .msg-7{
+        height: 30px;
+        width: 135px;
+        background-image: linear-gradient( to right , rgba(206,65,255,255) , rgba(145,59,254,255) ); 
+        position: absolute;
+        top: 462px;
+        left: 275px;
+        border-radius: 10px 10px 10px 3px;
+    }
+    .reply-bar{
+        height: 30px;
+        width: 190px;
+        background-color: white;
+        position: absolute;
+        top: 500px;
+        left: 280px;
+        border-radius: 30px 30px 30px 30px;
+    }
+    .para-6{
+        color: rgba(240,238,243,255);
+        font-weight: bold;
+        position: absolute;
+        top: -34px;
+        left:90px;
+        font-family: "rubik";
+    }
+    .logo-send{
+        color: rgba(63,38,82,255);
+        position: absolute;
+        top: -28px;
+        left:  155px;
+    }
+   .para-7{
+    position: absolute;
+    top: 388px;
+    left:375px;
+    color: rgba(177,145,188,255);
+    font-weight: bold;
+    font-size: 8px;
+    font-family: "rubik";
+ }
+ .heading-1{
+    position: absolute;
+    top: 402px;
+    left:368px;
+    color: rgba(230,230,230,255);
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "rubik";
+ }
+ .para-8{
+    position: absolute;
+    top: 428px;
+    left:375px;
+    color: rgba(177,145,188,255);
+    font-weight: bold;
+    font-size: 8px;
+    font-family: "rubik";
+ }
+ .heading-2{
+    position: absolute;
+    top: 442px;
+    left:368px;
+    color: rgba(230,230,230,255);
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "rubik";
+ }
+ .logo-3{
+    position: absolute;
+    top: 396px;
+    left:270px; 
+ }
+ .logo-4{
+    position: absolute;
+    top: 436px;
+    left:270px; 
+ }
+ .design-2{
+    background-color: rgba(249,244,250,255);
+    height: 550px;
+    width: 250px;
+    border-radius: 250px 0px 0px 0px;
+    position: absolute;
+   right: 0;
+   bottom:-100px;
+   
+ }
+ .heading-3{
+    position: absolute;
+    top: 210px;
+    left: 567px;
+    color: rgba(68,42,93,255);
+    font-size: 30px;
+    font-family: "rubik";
+
+ }
+ .para-9{
+    position: absolute;
+    top: 255px;
+    left: 650px;
+    color:  rgba(170,169,174,255);
+    font-size: 14px;
+    font-family: "rubik";
+    
+
+ }
+ 
+
+
+
